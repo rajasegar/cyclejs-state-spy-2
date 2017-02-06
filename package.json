@@ -1,0 +1,37 @@
+{
+  "name": "my-awesome-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "cycle-scripts-es-webpack": "0.3.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^14.3.0",
+    "@cycle/xstream-run": "^4.2.0",
+    "ramda": "^0.23.0",
+    "snabbdom-jsx": "^0.3.1",
+    "xstream": "^9.3.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "take-off-training-wheels": "cycle-scripts take-off-training-wheels"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "syntax-jsx",
+      [
+        "transform-react-jsx",
+        {
+          "pragma": "html"
+        }
+      ]
+    ]
+  }
+}
