@@ -2,7 +2,7 @@
 Basic registration form with State and Dataflow using CycleJS
 
 ## View Demo
-<a href="" target="_blank">Demo</a>
+<a href="https://outstanding-playground.surge.sh" target="_blank">Demo</a>
 
 ## Motivation
 This repo is just a rewrite for <a href="https://github.com/ivan-kleshnin" target="_blank">Ivan Kleshnin</a>'s Cyclejs example 1.1,
